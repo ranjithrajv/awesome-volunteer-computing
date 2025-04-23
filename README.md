@@ -1,6 +1,6 @@
 # Awesome Volunteer Computing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome platforms, projects, and tools for **volunteer computing** — where people donate idle computing power to help solve real-world scientific and humanitarian problems.
+> A curated list of awesome platforms, projects, and tools for **volunteer computing** — the practice of donating idle computing power to help solve real-world scientific and humanitarian problems.
 
 Volunteer computing harnesses the unused processing power of personal computers and other devices globally. Early pioneers like **[GIMPS](https://www.mersenne.org/)**  and **[distributed.net](https://www.distributed.net/)** paved the way for modern platforms that aggregate these resources into powerful virtual supercomputers, enabling research otherwise impossible.
 
