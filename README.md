@@ -69,6 +69,7 @@ Scientific and research projects powered by public computing contributions.
 - 🌱 **[World Community Grid](https://www.worldcommunitygrid.org/)** – Runs humanitarian research on health, sustainability, and climate change.
 - 🌌 **[Einstein@Home](https://einsteinathome.org/)** – Searches for gravitational waves and pulsars in massive astrophysical datasets.
 - 🪐 **[Asteroids@Home](http://asteroidsathome.net/)** – Reconstructs asteroid shapes based on brightness curve analysis.
+- 👽 **[SETI@home](https://setiathome.berkeley.edu/)** –  Based at UC Berkeley, a scientific experiment to Search for Extraterrestrial Intelligence (SETI)
 - 💥 **[LHC@home](https://lhcathome.web.cern.ch/)** – Simulates CERN’s Large Hadron Collider experiments to advance particle physics.
 
 ####  📘 [Wikipedia: List of Volunteer Computing Projects](https://en.wikipedia.org/wiki/List_of_volunteer_computing_projects) – A comprehensive and categorized list of past and present volunteer computing projects.
