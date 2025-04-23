@@ -2,6 +2,8 @@
 
 > A curated list of awesome platforms, projects, and tools for **volunteer computing** — where people donate idle computing power to help solve real-world scientific and humanitarian problems.
 
+Volunteer computing harnesses the unused processing power of personal computers and other devices globally. Early pioneers like **[GIMPS](https://www.mersenne.org/)**  and **[distributed.net](https://www.distributed.net/)** paved the way for modern platforms that aggregate these resources into powerful virtual supercomputers, enabling research otherwise impossible.
+
 ---
 
 ## 📚 Contents
@@ -15,6 +17,7 @@
 - [Volunteer Projects](#volunteer-projects)
 - [Research & Papers](#research--papers)
 - [Communities & Forums](#communities--forums)
+- [Related Concepts](#related-concepts)
 - [Articles & Videos](#articles--videos)
 - [Contributing](#contributing)
 
@@ -41,18 +44,19 @@ Volunteer computing systems people can join or build on top of.
 
 ### 🌐 Browser-Based
 
-- 🧠 **[distri.js.org](https://distri.js.org/)** – A minimalist JavaScript framework enabling distributed computing inside any modern web browser using Web Workers.
+- 🕸️ **[distri.js.org](https://distri.js.org/)** – A minimalist JavaScript framework enabling distributed computing inside any modern web browser using Web Workers.
+- 🐼 **[Pando](https://github.com/pando-project/pando)** – A personal volunteer computing platform for the Web, allowing easy setup for personal or shared computations via JavaScript. ([See Paper](https://arxiv.org/vc/arxiv/papers/1804/1804.01482v1.pdf))
 
 ---
 
 ## 🛠️ For Developers
 
-Everything you need to build or contribute to volunteer computing systems.
+Libraries, SDKs, and tools for building or contributing to volunteer computing systems.
 
-- 🧰 **[BOINC SDK & APIs](https://boinc.berkeley.edu/trac/wiki/SoftwareDevelopment)** – Tools for creating BOINC-compatible apps and running servers or clients.
-- 🔧 **[Volunteer Grid Toolkit (VGT)](https://sourceforge.net/projects/vgt/)** – A toolkit for experimenting with volunteer grid computing concepts.
-- 🔗 **[GridCoin Developer Resources](https://wiki.gridcoin.us/Developer-Information)** – Tools for integrating blockchain-based incentives into distributed computing.
-- 🖧 **[BOINC Server/Client](https://boinc.berkeley.edu/trac/wiki/SoftwareDevelopment)** – Core infrastructure for deploying scalable volunteer computing networks.
+- 🧰 **[BOINC Development Resources](https://boinc.berkeley.edu/trac/wiki/SoftwareDevelopment)** – Comprehensive guide covering the SDK, APIs, server/client setup, and creating BOINC-compatible applications.
+- 🌳 **[webrtc-tree-overlay](https://github.com/elavoie/webrtc-tree-overlay)** – A library for building scalable WebRTC P2P mesh networks in a tree overlay structure, useful for browser-based distributed applications.
+- 🔧 **[Volunteer Grid Toolkit (VGT)](https://sourceforge.net/projects/vgt/)** – A toolkit for experimenting with volunteer grid computing concepts. *Note: Check project activity/relevance.*
+- 🔗 **[GridCoin Developer Information](https://wiki.gridcoin.us/Developer-Information)** – Resources for integrating blockchain-based incentives (GridCoin) with distributed computing (primarily BOINC).
 
 ---
 
@@ -75,9 +79,12 @@ Scientific and research projects powered by public computing contributions.
 
 Academic insights and deep technical dives into distributed volunteer computing.
 
-- 📄 *Volunteer Computing: A Review* – Comprehensive overview of the evolution and applications of volunteer computing.
-- 🧩 *The Architecture of BOINC* – Explains BOINC’s client-server model and scalability.
-- 🌐 *Volunteer Computing in Web Browsers* – Analysis of browser-based computation potentials and limitations.
+- 📄 **[BOINC: A Platform for Volunteer Computing](https://arxiv.org/pdf/1903.01699)** (D. Anderson, 2019) – Describes the architecture, features, and implementation of the widely used BOINC middleware.
+- 📈 **[The Computational and Storage Potential of Volunteer Computing](https://www.researchgate.net/publication/4241887_The_Computational_and_Storage_Potential_of_Volunteer_Computing)** (D. Anderson & G. Fedak, 2006) – Analyzes measurements from ~330k hosts to assess the capacity of volunteer computing beyond CPU power.
+- ⚙️ **[Research on the Task Assignment Problem with Maximum Benefits in Volunteer Computing Platforms](https://www.mdpi.com/2073-8994/12/5/862)** (L. Wang et al., 2020) – Explores task scheduling strategies for maximizing benefits in VCPs considering deadlines.
+- 👥 **[Retaining volunteers in volunteer computing projects](https://www.researchgate.net/publication/45461278_Retaining_volunteers_in_volunteer_computing_projects)** (D. Nov, O. Arazy, D. Anderson, 2011) – Investigates factors influencing volunteer retention and contribution levels.
+- 💡 **[Personal Volunteer Computing](https://arxiv.org/vc/arxiv/papers/1804/1804.01482v1.pdf)** (S. Cahon et al., 2018) – Proposes a more personal, web-based approach to volunteer computing and introduces the Pando platform.
+- ❤️ **[Volunteer computing: A model of the factors determining contribution to community-based scientific research](https://dl.acm.org/doi/abs/10.1145/1772690.1772766)** (O. Nov, D. Anderson, O. Arazy, 2010) – Develops and tests a model of user motivation based on SETI@home survey data and activity logs.
 
 ---
 
@@ -88,16 +95,30 @@ Places to ask questions, meet contributors, or follow development.
 - 💬 [BOINC Message Boards](https://boinc.berkeley.edu/dev/forum_index.php)
 - 📢 [Reddit: r/BOINC](https://www.reddit.com/r/BOINC/)
 - 🗨️ [BOINC Discord](https://discord.gg/boinc)
+- *(Project-specific forums, like Folding@home's, also exist)*
 
 ---
 
 ## 📺 Articles & Videos
 
-Resources to learn more about the real-world impact of volunteer computing.
+Resources to learn more about the real-world impact and concepts of volunteer computing.
 
-- 🎥 [Folding@Home vs COVID-19](https://www.youtube.com/watch?v=K4X6UeGJp7A)
-- 📺 [Intro to BOINC](https://www.youtube.com/watch?v=EK2tWVj6lTY)
-- 📰 [What is Volunteer Computing? – TechRadar](https://www.techradar.com/news/what-is-volunteer-computing)
+- 📰 [What is Volunteer Computing? – TechRadar](https://www.techradar.com/news/what-is-volunteer-computing) – General overview article.
+- 🌐 [Volunteer computing - Wikipedia](https://en.wikipedia.org/wiki/Volunteer_computing) – Comprehensive encyclopedia article.
+-  CERN Explainer: [What is volunteer computing? | LHC@home](https://lhcathome.web.cern.ch/about/volunteer-computing) – Explanation from the perspective of a major project.
+- Khan Academy: [Citizen science (article)](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:computing-innovations/xcae6f4a7ff015e7d:crowdsourcing-innovations/a/citizen-science) – Discusses volunteer computing as a form of citizen science.
+
+---
+
+## 🔗 Related Concepts
+
+Areas closely related to or overlapping with volunteer computing.
+
+- **Citizen Science:** Public participation in scientific research, often involving data collection or analysis. Volunteer computing is sometimes considered a sub-field.
+    - [Zooniverse](https://www.zooniverse.org/): Popular platform for web-based citizen science projects (classification, transcription).
+    - [SciStarter](https://scistarter.org/): Hub for discovering citizen science projects.
+- **Distributed Computing:** General term for systems where components are located on different networked computers, communicating and coordinating actions.
+- **Grid Computing:** Often involves more formal resource sharing agreements and infrastructure, typically within or between organizations, compared to the public volunteer model.
 
 ---
 
