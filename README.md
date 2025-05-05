@@ -30,6 +30,7 @@ Volunteer computing systems people can join or build on top of.
 ### 🧬 Hybrid or Multi-Platform
 
 - 🌸 **[Petals](https://petals.dev/)** – Peer-to-peer network that runs large language models (LLMs) like BLOOM across distributed GPUs and contributors’ machines.
+- 🧱 **[Exo](https://github.com/exo-explore/exo)** – Run your own AI cluster at home with everyday devices. Unifies existing devices (iPhone, iPad, Android, Mac, NVIDIA, Raspberry Pi) into one powerful distributed GPU for running various AI models including LLaMA, Mistral, and LlaVA
 
 ### 💻 Desktop-Native
 
@@ -54,6 +55,7 @@ Volunteer computing systems people can join or build on top of.
 Libraries, SDKs, and tools for building or contributing to volunteer computing systems.
 
 - 🧰 **[BOINC Development Resources](https://boinc.berkeley.edu/trac/wiki/SoftwareDevelopment)** – Comprehensive guide covering the SDK, APIs, server/client setup, and creating BOINC-compatible applications.
+- 🌸 **[Flower](https://github.com/adap/flower)** – A federated learning framework that enables training machine learning models across distributed devices while preserving data privacy. Supports PyTorch Lightning and other ML frameworks
 - 🌳 **[webrtc-tree-overlay](https://github.com/elavoie/webrtc-tree-overlay)** – A library for building scalable WebRTC P2P mesh networks in a tree overlay structure, useful for browser-based distributed applications.
 - 🔧 **[Volunteer Grid Toolkit (VGT)](https://sourceforge.net/projects/vgt/)** – A toolkit for experimenting with volunteer grid computing concepts. *Note: Check project activity/relevance.*
 - 🔗 **[GridCoin Developer Information](https://wiki.gridcoin.us/Developer-Information)** – Resources for integrating blockchain-based incentives (GridCoin) with distributed computing (primarily BOINC).
@@ -120,7 +122,7 @@ Areas closely related to or overlapping with volunteer computing.
     - [SciStarter](https://scistarter.org/): Hub for discovering citizen science projects.
 - **Distributed Computing:** General term for systems where components are located on different networked computers, communicating and coordinating actions.
 - **Grid Computing:** Often involves more formal resource sharing agreements and infrastructure, typically within or between organizations, compared to the public volunteer model.
-
+- **Federated Learning:** A machine learning technique that trains algorithms across multiple decentralized edge devices or servers holding local data samples, without exchanging them. Shares principles with volunteer computing regarding utilizing distributed resources.
 ---
 
 ## 🤝 Contributing
