@@ -88,7 +88,7 @@ Academic insights and deep technical dives into distributed volunteer computing.
 - 👥 **[Retaining volunteers in volunteer computing projects](https://www.researchgate.net/publication/45461278_Retaining_volunteers_in_volunteer_computing_projects)** (D. Nov, O. Arazy, D. Anderson, 2011) – Investigates factors influencing volunteer retention and contribution levels.
 - 💡 **[Personal Volunteer Computing](https://arxiv.org/vc/arxiv/papers/1804/1804.01482v1.pdf)** (S. Cahon et al., 2018) – Proposes a more personal, web-based approach to volunteer computing and introduces the Pando platform.
 - ❤️ **[Volunteer computing: A model of the factors determining contribution to community-based scientific research](https://dl.acm.org/doi/abs/10.1145/1772690.1772766)** (O. Nov, D. Anderson, O. Arazy, 2010) – Develops and tests a model of user motivation based on SETI@home survey data and activity logs.
-- 📄 **[Improving the Productivity of Volunteer Computing" (Toth, 2008)](https://digital.wpi.edu/concern/etds/kk91fk601?locale=en) – Examines task retrieval policies and techniques to increase productivity.
+- 📄 **[Improving the Productivity of Volunteer Computing" (Toth, 2008)](https://digital.wpi.edu/concern/etds/kk91fk601?locale=en)** – Examines task retrieval policies and techniques to increase productivity.
 
 ---
 
