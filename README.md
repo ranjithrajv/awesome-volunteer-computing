@@ -31,6 +31,7 @@ Volunteer computing systems people can join or build on top of.
 
 - 🌸 **[Petals](https://petals.dev/)** – Peer-to-peer network that runs large language models (LLMs) like BLOOM across distributed GPUs and contributors’ machines.
 - 🧱 **[Exo](https://github.com/exo-explore/exo)** – Run your own AI cluster at home with everyday devices. Unifies existing devices (iPhone, iPad, Android, Mac, NVIDIA, Raspberry Pi) into one powerful distributed GPU for running various AI models including LLaMA, Mistral, and LlaVA
+- 🧠🧱 **[MultiCortex EXO](https://github.com/cabelo/multicortex-exo)** – A portable system that can be booted from a USB flash drive, with the fantastic Exo project pre-installed. It allows any computer to become a node for creating a decentralized AI framework. It allows pooling of computing power from multiple devices, leveraging CPUs, GPUs, NPUs, and other accelerators.  
 
 ### 💻 Desktop-Native
 
