@@ -9,17 +9,63 @@ We welcome contributions in various forms, including:
 - Improving descriptions or categorization
 - Suggesting new sections or reorganizing the list
 
-## How to Contribute
 
-### 1. Fork the Repository
-Start by forking this repository. This allows you to make your own copy of the project and propose changes.
+## Guidelines for Adding Entries
 
-- [Fork the repo](https://github.com/YOUR_USERNAME/awesome-volunteer-computing/fork)
+### Quality Criteria
+- **Active Projects**: Prefer projects with recent activity (commits within last 1-2 years)
+- **Working Links**: All URLs must be accessible and relevant
+- **Clear Descriptions**: Brief but informative descriptions of what each project does
+- **Proper Categorization**: Place entries in the most appropriate section
 
-### 2. Clone Your Fork Locally
-Clone the forked repository to your local machine to begin making changes.
+### Format for New Entries
+Follow this format for consistency:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/awesome-volunteer-computing.git
+```markdown
+- 🌟 **[Project Name](https://example.com/)** ([Repo](https://github.com/user/repo)) [![GitHub stars](https://img.shields.io/github/stars/user/repo)](https://github.com/user/repo/stargazers) [![GitHub forks](https://img.shields.io/github/forks/user/repo)](https://github.com/user/repo/network) [![GitHub last commit](https://img.shields.io/github/last-commit/user/repo)](https://github.com/user/repo/commits/main) – Brief description of the project.
+```
+
+### Sections
+- **Platforms & Infrastructure**: Tools and platforms for volunteer computing
+- **For Developers**: Libraries, SDKs, and development tools
+- **Volunteer Projects**: Research projects using volunteer computing
+- **Research & Papers**: Academic papers and research
+- **Communities & Forums**: Discussion platforms and communities
+- **Articles & Videos**: Educational content
+
+## What to Include
+
+### Platforms & Infrastructure
+- Volunteer computing frameworks and middleware
+- Desktop applications for participating in projects
+- Mobile apps for volunteer computing
+- Browser-based volunteer computing tools
+
+### For Developers
+- APIs and SDKs for building volunteer computing systems
+- Development tools and frameworks
+- Documentation and guides
+
+### Volunteer Projects
+- Active scientific research projects
+- Mathematical and computational projects
+- Humanitarian and social impact projects
+
+## What NOT to Include
+
+- Commercial services without volunteer components
+- Dead or inactive projects (mark as Legacy if historically significant)
+- Projects without clear volunteer computing aspects
+- Personal blogs or promotional content
+
+## Getting Help
+
+If you're unsure about whether something belongs in this list, or need help with formatting:
+
+- Open an issue with your question
+- Check existing entries for examples
+- Review the [Awesome list criteria](https://awesome.re)
+
+Thank you for contributing to the volunteer computing community! 🚀
 
 

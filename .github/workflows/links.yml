@@ -1,0 +1,20 @@
+name: Check Links
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 0' # every Sunday at midnight
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress ./**/*.md
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
