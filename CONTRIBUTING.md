@@ -1,4 +1,4 @@
-# Contributing to Awesome Volunteer Computing
+# Contributing to Awesome Volunteer Computing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Thank you for your interest in contributing to the **Awesome Volunteer Computing** list! This is a curated collection of projects, platforms, tools, and resources that make use of volunteer computing.
 
@@ -13,10 +13,11 @@ We welcome contributions in various forms, including:
 ## Guidelines for Adding Entries
 
 ### Quality Criteria
-- **Active Projects**: Prefer projects with recent activity (commits within last 1-2 years)
-- **Working Links**: All URLs must be accessible and relevant
-- **Clear Descriptions**: Brief but informative descriptions of what each project does
-- **Proper Categorization**: Place entries in the most appropriate section
+
+**Active Projects**: Prefer projects with recent activity (commits within last 1-2 years)  
+**Working Links**: All URLs must be accessible and relevant  
+**Clear Descriptions**: Brief but informative descriptions of what each project does  
+**Proper Categorization**: Place entries in the most appropriate section
 
 ### Format for New Entries
 Follow this format for consistency:
@@ -26,12 +27,13 @@ Follow this format for consistency:
 ```
 
 ### Sections
-- **Platforms & Infrastructure**: Tools and platforms for volunteer computing
-- **For Developers**: Libraries, SDKs, and development tools
-- **Volunteer Projects**: Research projects using volunteer computing
-- **Research & Papers**: Academic papers and research
-- **Communities & Forums**: Discussion platforms and communities
-- **Articles & Videos**: Educational content
+
+**Platforms & Infrastructure**: Tools and platforms for volunteer computing  
+**For Developers**: Libraries, SDKs, and development tools  
+**Volunteer Projects**: Research projects using volunteer computing  
+**Research & Papers**: Academic papers and research  
+**Communities & Forums**: Discussion platforms and communities  
+**Articles & Videos**: Educational content
 
 ## What to Include
 
@@ -64,7 +66,7 @@ If you're unsure about whether something belongs in this list, or need help with
 
 - Open an issue with your question
 - Check existing entries for examples
-- Review the [Awesome list criteria](https://awesome.re)
+- Review the [Awesome list criteria](https://github.com/sindresorhus/awesome)
 
 Thank you for contributing to the volunteer computing community! 🚀
 

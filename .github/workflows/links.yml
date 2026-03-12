@@ -18,3 +18,7 @@ jobs:
           args: --verbose --no-progress ./**/*.md
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+This is an initiative to collect and curate Awesome List of volunteer computing projects to help foster a community-driven AI ecosystem.
+
+With recent news like Micron discontinuing consumer RAM and (rumored)Samsung halting SATA SSD production, the demand for accessible compute power is only growing.
+This list is a resource for anyone interested in this space. If you know of any projects, platforms, or tools that are missing, please contribute!
