@@ -91,6 +91,7 @@ Scientific and research projects powered by public computing contributions.
 - 🔢 **[LODA](https://boinc.loda-lang.org/loda/)** – Mathematics project using LODA language to find integer sequences and patterns.
 - 🧪 **[DENIS@Home](https://denis.usj.es/denisathome/)** – Medical physiology research from San Jorge University studying human physiological systems.
 - 🔢 **[GIMPS](https://www.mersenne.org/)** ([Wikidata](https://www.wikidata.org/wiki/Q330607)) – Great Internet Mersenne Prime Search, discovered the largest known prime in 2024 (41M digits).
+- 🧮 **[P2PCLAW](https://github.com/Agnuxo1/p2pclaw)** – Decentralized peer-reviewed science network combining P2P collaboration, Lean 4 formal verification, AI agents, and community-driven scientific publishing.
 - 📊 **[distributed.net](https://www.distributed.net/)** – Cryptographic challenges and optimal Golomb ruler searches, completed OGR-28 in 2022.
 
 #### 📘 [Wikipedia: List of Volunteer Computing Projects](https://en.wikipedia.org/wiki/List_of_volunteer_computing_projects) – A comprehensive and categorized list of past and present volunteer computing projects.
