@@ -1,0 +1,52 @@
+name: Check Stale Repos
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # every Monday at 6 AM
+  workflow_dispatch:
+
+jobs:
+  stale-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check repositories for staleness
+        run: |
+          set -e
+          errors=""
+          while IFS= read -r line; do
+            repo=$(echo "$line" | sed -n 's/.*github\.com\/\([a-zA-Z0-9._-]\+\/[a-zA-Z0-9._-]\+\).*/\1/p')
+            if [ -n "$repo" ]; then
+              status=$(curl -s -o /dev/null -w "%{http_code}" "https://api.github.com/repos/$repo" 2>/dev/null)
+              if [ "$status" = "410" ]; then
+                errors="$errors- $repo is \`deleted or gone\`\n"
+              elif [ "$status" = "200" ]; then
+                archived=$(curl -s "https://api.github.com/repos/$repo" | jq -r '.archived // false')
+                if [ "$archived" = "true" ]; then
+                  errors="$errors- $repo is \`archived\`\n"
+                fi
+              fi
+            fi
+          done < README.md
+          if [ -n "$errors" ]; then
+            echo "STALE_REPOS=true" >> $GITHUB_ENV
+            echo "STALE_DETAILS<<EOF" >> $GITHUB_ENV
+            echo -e "$errors" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+          fi
+      - name: Create issue if stale repos found
+        if: env.STALE_REPOS == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = `## ⚠️ Stale Repositories Detected\n\nThe following repositories in this list appear to be archived or unavailable:\n\n${{ env.STALE_DETAILS }}\n\nPlease verify and update the list accordingly.`;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Stale repositories detected',
+              body: body,
+              labels: ['maintenance']
+            });

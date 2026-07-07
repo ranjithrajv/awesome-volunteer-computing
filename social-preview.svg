@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="200" cy="320" r="100" fill="none" stroke="#e94560" stroke-width="3" opacity="0.5"/>
+  <circle cx="340" cy="180" r="60" fill="none" stroke="#e94560" stroke-width="3" opacity="0.5"/>
+  <circle cx="340" cy="460" r="60" fill="none" stroke="#e94560" stroke-width="3" opacity="0.5"/>
+  <circle cx="200" cy="320" r="20" fill="#e94560" opacity="0.8"/>
+  <circle cx="340" cy="180" r="14" fill="#e94560" opacity="0.8"/>
+  <circle cx="340" cy="460" r="14" fill="#e94560" opacity="0.8"/>
+  <line x1="220" y1="312" x2="328" y2="188" stroke="#e94560" stroke-width="2" opacity="0.4"/>
+  <line x1="220" y1="328" x2="328" y2="452" stroke="#e94560" stroke-width="2" opacity="0.4"/>
+  <text x="480" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">Awesome Volunteer</text>
+  <text x="480" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#e94560">Computing</text>
+  <text x="480" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#8899aa">Donate idle compute power to science &amp; research</text>
+  <text x="480" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#556677">BOINC · Folding@home · Distributed GPU · Citizen Science</text>
+  <rect x="480" y="500" width="260" height="50" rx="25" fill="#e94560" opacity="0.9"/>
+  <text x="610" y="532" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">★ 26+ stars</text>
+  <line x1="0" y1="600" x2="1280" y2="600" stroke="#e94560" stroke-width="2" opacity="0.3"/>
+  <text x="640" y="620" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#445566" text-anchor="middle">github.com/ranjithrajv/awesome-volunteer-computing</text>
+</svg>

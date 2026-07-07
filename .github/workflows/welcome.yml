@@ -1,0 +1,54 @@
+name: Welcome
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const issueMessage = `
+            Thanks for opening an issue! 🎉
+
+            A maintainer will review it soon. In the meantime:
+            - Make sure to check the [CONTRIBUTING](https://github.com/ranjithrajv/awesome-volunteer-computing/blob/main/CONTRIBUTING.md) guidelines
+            - Search [existing issues](https://github.com/ranjithrajv/awesome-volunteer-computing/issues) to avoid duplicates
+            - Browse [Discussions](https://github.com/ranjithrajv/awesome-volunteer-computing/discussions) for community conversations
+
+            Thank you for helping improve this list!`;
+            const prMessage = `
+            Thanks for opening a pull request! 🎉
+
+            A maintainer will review it soon. Please ensure:
+            - You've read the [CONTRIBUTING](https://github.com/ranjithrajv/awesome-volunteer-computing/blob/main/CONTRIBUTING.md) guidelines
+            - Your entry follows the required format
+            - Links are working and the project is actively maintained
+
+            Thank you for contributing to the volunteer computing community!`;
+
+            const isIssue = context.payload.issue;
+            const isPR = context.payload.pull_request;
+            const author = (isIssue || isPR).user.login;
+            const nodeId = (isIssue || isPR).node_id;
+
+            if (isIssue) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: issueMessage
+              });
+            } else if (isPR) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: prMessage
+              });
+            }

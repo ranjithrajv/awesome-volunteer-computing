@@ -168,6 +168,12 @@ Areas closely related to or overlapping with volunteer computing.
 
 ---
 
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ranjithrajv/awesome-volunteer-computing&type=Date)](https://star-history.com/#ranjithrajv/awesome-volunteer-computing&Date)
+
+---
+
 ## 🤝 Contributing
 
 Found a project we missed? Want to improve descriptions or links? Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for how to get started.
