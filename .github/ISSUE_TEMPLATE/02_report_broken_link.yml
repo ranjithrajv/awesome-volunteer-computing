@@ -1,0 +1,37 @@
+name: Report Broken Link
+description: Let us know about a link in the list that is no longer working
+title: "[Broken Link] Section — Project Name"
+labels: ["bug"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Broken URL
+      description: The exact URL that is broken
+      placeholder: https://example.org/broken-link
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Project / Entry
+      description: Which entry in the list has the broken link?
+      placeholder: Folding@home
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Which section is this entry in?
+      placeholder: Volunteer Projects
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: Any additional context (e.g., when you noticed it, suggested replacement)
+      placeholder: The project may have moved to a new domain
+    validations:
+      required: false

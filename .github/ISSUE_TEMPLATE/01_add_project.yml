@@ -1,0 +1,68 @@
+name: Suggest a Project
+description: Propose a new volunteer computing project, platform, or tool to add to the list
+title: "[Add] Project Name"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      description: What is the name of the project?
+      placeholder: e.g. Folding@home
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Project URL
+      description: Main website or landing page
+      placeholder: https://example.org
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      description: Link to source code (GitHub/GitLab/etc.)
+      placeholder: https://github.com/org/repo
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which section does this project belong in?
+      options:
+        - Platforms & Infrastructure (Hybrid/Multi-Platform)
+        - Platforms & Infrastructure (Desktop-Native)
+        - Platforms & Infrastructure (Mobile-Based)
+        - Platforms & Infrastructure (Browser-Based)
+        - For Developers
+        - Volunteer Projects
+        - Research & Papers
+        - Communities & Forums
+        - Articles & Videos
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the project (1-2 sentences)
+      placeholder: Tell us what this project does and why it belongs on the list
+    validations:
+      required: true
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Quality criteria
+      description: Confirm the project meets our contribution guidelines
+      options:
+        - label: The project is actively maintained (commits within last 1-2 years)
+          required: true
+        - label: The description is clear and informative
+          required: true
+        - label: The project fits the volunteer computing theme
+          required: true
+        - label: I have checked the project is not already listed
+          required: true

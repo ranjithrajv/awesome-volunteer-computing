@@ -1,10 +1,27 @@
 # Awesome Volunteer Computing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="center">
+  <img src="banner.svg" alt="Awesome Volunteer Computing" width="650">
+</p>
+
 **volunteer computing** — practice of donating idle computing power to help solve real-world scientific and humanitarian problems.
 
 Early pioneers like **[GIMPS](https://www.mersenne.org/)** and **[distributed.net](https://www.distributed.net/)** paved the way for modern platforms that aggregate these resources into powerful virtual supercomputers, enabling research otherwise impossible.
 
 > Below is a curated list of awesome platforms, projects, and tools for volunteer computing
+
+---
+
+## 🚀 New to Volunteer Computing?
+
+Volunteer computing lets you contribute to cutting-edge science using hardware you already own. Here's how to get started:
+
+1. **Pick a project** — Scroll down to [Volunteer Projects](#volunteer-projects) and choose one that interests you (protein folding? prime numbers? astrophysics?).
+2. **Install the software** — Most projects use [BOINC](#-desktop-native) (desktop) or run entirely in your browser ([distri.js.org](#-browser-based), [Pando](#-browser-based)).
+3. **Let it run** — Your computer works on small research tasks when idle. No impact on your daily use.
+4. **Join a community** — Connect with other volunteers on [r/BOINC](https://www.reddit.com/r/BOINC/) or the [BOINC Discord](https://discord.gg/boinc).
+
+> 💡 **Tip:** Start with [Science United](https://scienceunited.org/) — it automatically assigns your computer to projects that need help most.
 
 ---
 

@@ -1,0 +1,28 @@
+name: Feature Request
+description: Suggest an improvement to the list structure, tooling, or presentation
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe what's missing or could be better
+      placeholder: The list would be more useful if it also covered...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like to see this improved?
+      placeholder: Add a new section for X, or reorganize Y
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternative approaches you've thought of
+    validations:
+      required: false
