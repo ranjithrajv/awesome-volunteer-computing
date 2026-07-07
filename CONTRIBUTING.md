@@ -23,7 +23,7 @@ We welcome contributions in various forms, including:
 Follow this format for consistency:
 
 ```markdown
-- 🌟 **[Project Name](https://example.com/)** ([Repo](https://github.com/user/repo)) [![GitHub stars](https://img.shields.io/github/stars/user/repo)](https://github.com/user/repo/stargazers) [![GitHub forks](https://img.shields.io/github/forks/user/repo)](https://github.com/user/repo/network) [![GitHub last commit](https://img.shields.io/github/last-commit/user/repo)](https://github.com/user/repo/commits/main) – Brief description of the project.
+- 🌟 **[Project Name](https://example.com/)** ([Repo](https://github.com/user/repo)) [![GitHub stars](https://img.shields.io/github/stars/user/repo)](https://github.com/user/repo/stargazers) [![GitHub forks](https://img.shields.io/github/forks/user/repo)](https://github.com/user/repo/network) [![GitHub last commit](https://img.shields.io/github/last-commit/user/repo)](https://github.com/user/repo/commits/main) - Brief description of the project.
 ```
 
 ### Sections
@@ -56,7 +56,7 @@ Follow this format for consistency:
 ## What NOT to Include
 
 - Commercial services without volunteer components
-- Dead or inactive projects (mark as Legacy if historically significant)
+- Dead or inactive projects (move to LEGACY.md if historically significant)
 - Projects without clear volunteer computing aspects
 - Personal blogs or promotional content
 
