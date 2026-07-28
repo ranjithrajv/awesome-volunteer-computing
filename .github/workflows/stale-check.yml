@@ -22,11 +22,11 @@ jobs:
             if [ -n "$repo" ]; then
               status=$(curl -s -o /dev/null -w "%{http_code}" "https://api.github.com/repos/$repo" 2>/dev/null)
               if [ "$status" = "410" ]; then
-                errors="$errors- $repo is \`deleted or gone\`\n"
+                errors="$errors- $repo is deleted or gone\n"
               elif [ "$status" = "200" ]; then
                 archived=$(curl -s "https://api.github.com/repos/$repo" | jq -r '.archived // false')
                 if [ "$archived" = "true" ]; then
-                  errors="$errors- $repo is \`archived\`\n"
+                  errors="$errors- $repo is archived\n"
                 fi
               fi
             fi
