@@ -13,9 +13,21 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Link Checker
+        id: lychee
         uses: lycheeverse/lychee-action@v1
         with:
           args: --verbose --no-progress ./**/*.md
           fail: false
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Warn about inactive URLs
+        if: steps.lychee.outputs.exit_code != '0'
+        run: echo "::warning::Inactive or broken URLs detected. See the lychee/out.md report artifact."
+
+      - name: Upload link report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lychee-report
+          path: lychee/out.md
