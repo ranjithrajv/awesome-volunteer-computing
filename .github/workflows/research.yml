@@ -1,0 +1,53 @@
+name: Research Digest
+
+on:
+  schedule:
+    - cron: '17 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan sources for candidate projects
+        id: scan
+        run: python3 .github/scripts/research_digest.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: https://models.github.ai/inference
+          LLM_MODEL: openai/gpt-4o-mini
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          DIGEST_OUT: ${{ runner.temp }}/digest.md
+
+      - name: Add job summary
+        if: always()
+        run: |
+          if [ -s "${{ runner.temp }}/digest.md" ]; then
+            cat "${{ runner.temp }}/digest.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload digest artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-digest
+          path: ${{ runner.temp }}/digest.md
+
+      - name: Open digest issue
+        if: steps.scan.outputs.candidates != '0' && steps.scan.outputs.candidates != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create research --color 1D76DB --description "Auto-generated research digest" --force || true
+          gh issue create \
+            --title "[auto] Research digest $(date -u +%Y-%m-%d)" \
+            --body-file "${{ runner.temp }}/digest.md" \
+            --label research || echo "::warning::Could not create digest issue"

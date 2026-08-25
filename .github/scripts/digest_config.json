@@ -1,0 +1,15 @@
+{
+  "list_description": "Awesome Volunteer Computing curates platforms, clients, dashboards, and research projects in volunteer/distributed computing: BOINC and its projects, Folding@home, World Community Grid, grid computing middleware, citizen science participation tools, and incentive/token-based compute sharing networks.",
+  "hn_queries": ["volunteer computing", "BOINC", "Folding@home", "distributed computing project", "citizen science"],
+  "github_queries": ["boinc", "volunteer computing", "grid computing platform", "citizen science"],
+  "rss_feeds": [
+    "https://phys.org/rss-feed/",
+    "https://www.sciencedaily.com/rss/computers_math.xml",
+    "https://dev.to/feed/tag/distributedsystems"
+  ],
+  "keywords": ["volunteer computing", "boinc", "folding@home", "world community grid", "distributed computing", "citizen science", "grid computing"],
+  "min_hn_points": 5,
+  "min_github_stars": 5,
+  "days_back": 14,
+  "max_llm_candidates": 25
+}
