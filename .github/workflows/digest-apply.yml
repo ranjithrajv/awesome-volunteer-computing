@@ -11,6 +11,7 @@ on:
       issue_number:
         description: Digest issue number whose ticked candidates to apply
         required: true
+        type: number
 
 permissions:
   contents: write
