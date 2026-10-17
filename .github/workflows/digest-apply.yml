@@ -1,0 +1,31 @@
+name: Digest Apply
+
+# Tick candidates in a research digest issue and this opens a pull request.
+# The logic lives in ranjithrajv/awesome-enhancer.
+
+on:
+  issues:
+    types: [edited]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Digest issue number whose ticked candidates to apply
+        required: true
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  apply:
+    if: >-
+      github.event_name == 'workflow_dispatch'
+      || (contains(github.event.issue.labels.*.name, 'research') && github.event.issue.state == 'open')
+    uses: ranjithrajv/awesome-enhancer/.github/workflows/digest-apply.yml@main
+    with:
+      # format() keeps this a string whichever trigger fired: a dispatch input
+      # arrives as a string while github.event.issue.number is a number, and
+      # the reusable workflow's input has a single declared type.
+      issue-number: ${{ format('{0}', inputs.issue_number || github.event.issue.number) }}
+    secrets: inherit
