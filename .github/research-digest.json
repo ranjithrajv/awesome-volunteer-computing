@@ -18,12 +18,11 @@
   "min_github_stars": 5,
 
   "reddit_subreddits": ["BOINC", "volunteercomputing", "citizenscience"],
-  "min_reddit_score": 5,
 
-  "lobsters_queries": ["boinc", "distributed computing"],
+  "lobsters_tags": ["distributed", "science"],
   "min_lobsters_score": 5,
 
-  "arxiv_queries": ["cat:cs.DC AND all:\"volunteer computing\"", "all:\"citizen science\" AND cat:cs.CY"],
+  "arxiv_queries": ["all:\"citizen science\"", "all:\"volunteer computing\""],
 
   "mastodon_instances": ["fosstodon.org", "mastodon.social"],
   "mastodon_tags": ["boinc", "volunteercomputing"],
