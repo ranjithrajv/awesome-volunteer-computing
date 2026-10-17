@@ -127,6 +127,10 @@ Scientific and research projects powered by public computing contributions.
 A comprehensive and categorized list of past and present volunteer computing projects on [Wikipedia](https://en.wikipedia.org/wiki/List_of_volunteer_computing_projects).
 
 ---
+- [BOINC Central](https://reddit.com/r/BOINC/comments/1x6ofne/boinc_central) - I've just installed Docker and started crunching, but I’m not quite sure what the "Universal Docker app" project is all about. Could someone explain it to me? submitted by /u/consulent-finanziar \[li…
+- [lichess-org/fishnet](https://github.com/lichess-org/fishnet) - Distributed Stockfish analysis for lichess.org
+- [Lonero-Team/Decentralized-Internet](https://github.com/Lonero-Team/Decentralized-Internet) - A SDK/library for decentralized web and distributing computing projects
+
 
 ## 📚 Research & Papers
 
