@@ -20,9 +20,6 @@ permissions:
 
 jobs:
   apply:
-    if: >-
-      github.event_name == 'workflow_dispatch'
-      || (contains(github.event.issue.labels.*.name, 'research') && github.event.issue.state == 'open')
     uses: ranjithrajv/awesome-enhancer/.github/workflows/digest-apply.yml@main
     with:
       # inputs first: on a workflow_dispatch there is no github.event.issue,
