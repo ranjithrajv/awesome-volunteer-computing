@@ -19,10 +19,8 @@
 
   "reddit_subreddits": ["BOINC", "volunteercomputing", "citizenscience"],
 
-  "lobsters_tags": ["distributed", "science"],
-  "min_lobsters_score": 5,
 
-  "arxiv_queries": ["all:\"citizen science\"", "all:\"volunteer computing\""],
+  "arxiv_queries": ["all:\"citizen science\"", "all:\"distributed computing\""],
 
   "mastodon_instances": ["fosstodon.org", "mastodon.social"],
   "mastodon_tags": ["boinc", "volunteercomputing"],
@@ -30,6 +28,8 @@
   "bluesky_queries": ["volunteer computing", "BOINC"],
 
   "rss_feeds": [
+    "https://news.google.com/rss/search?q=%22volunteer+computing%22&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=%22BOINC%22+OR+%22Folding%40home%22&hl=en-US&gl=US&ceid=US:en",
     "https://phys.org/rss-feed/",
     "https://www.sciencedaily.com/rss/computers_math.xml",
     "https://dev.to/feed/tag/distributedsystems"

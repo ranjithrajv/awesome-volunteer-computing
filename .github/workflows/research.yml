@@ -17,7 +17,7 @@ on:
         default: true
 
 permissions:
-  contents: read
+  contents: write   # commits the digest state file
   issues: write
   models: read
 
