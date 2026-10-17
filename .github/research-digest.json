@@ -1,0 +1,40 @@
+{
+  "list_description": "Awesome Volunteer Computing curates platforms, clients, dashboards, and research projects in volunteer/distributed computing: BOINC and its projects, Folding@home, World Community Grid, grid computing middleware, citizen science participation tools, and incentive/token-based compute sharing networks.",
+  "keywords": ["volunteer computing", "boinc", "folding@home", "world community grid", "distributed computing", "citizen science", "grid computing"],
+
+  "days_back": 14,
+  "max_llm_candidates": 25,
+  "max_per_source": 10,
+  "per_source_caps": { "Reddit": 6, "RSS": 8 },
+  "source_weights": { "RSS": 0.8, "Hacker News": 1.1 },
+  "half_life_days": 21,
+  "default_section": "🧪 Volunteer Projects",
+
+  "hn_queries": ["volunteer computing", "BOINC", "Folding@home", "distributed computing project", "citizen science"],
+  "min_hn_points": 5,
+
+  "github_queries": ["boinc", "volunteer computing", "grid computing platform", "citizen science"],
+  "github_topics": ["volunteer-computing", "grid-computing", "boinc", "citizen-science"],
+  "min_github_stars": 5,
+
+  "reddit_subreddits": ["BOINC", "volunteercomputing", "citizenscience"],
+  "min_reddit_score": 5,
+
+  "lobsters_queries": ["boinc", "distributed computing"],
+  "min_lobsters_score": 5,
+
+  "arxiv_queries": ["cat:cs.DC AND all:\"volunteer computing\"", "all:\"citizen science\" AND cat:cs.CY"],
+
+  "mastodon_instances": ["fosstodon.org", "mastodon.social"],
+  "mastodon_tags": ["boinc", "volunteercomputing"],
+
+  "bluesky_queries": ["volunteer computing", "BOINC"],
+
+  "rss_feeds": [
+    "https://phys.org/rss-feed/",
+    "https://www.sciencedaily.com/rss/computers_math.xml",
+    "https://dev.to/feed/tag/distributedsystems"
+  ],
+
+  "producthunt": true
+}
