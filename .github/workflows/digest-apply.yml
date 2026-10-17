@@ -6,6 +6,11 @@ name: Digest Apply
 on:
   issues:
     types: [edited]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Digest issue number whose ticked candidates to apply
+        required: true
 
 permissions:
   contents: write
@@ -14,8 +19,10 @@ permissions:
 
 jobs:
   apply:
-    if: contains(github.event.issue.labels.*.name, 'research') && github.event.issue.state == 'open'
+    if: >-
+      github.event_name == 'workflow_dispatch'
+      || (contains(github.event.issue.labels.*.name, 'research') && github.event.issue.state == 'open')
     uses: ranjithrajv/awesome-enhancer/.github/workflows/digest-apply.yml@main
     with:
-      issue-number: ${{ github.event.issue.number }}
+      issue-number: ${{ github.event.issue.number || inputs.issue_number }}
     secrets: inherit
