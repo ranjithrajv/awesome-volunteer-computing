@@ -25,5 +25,7 @@ jobs:
       || (contains(github.event.issue.labels.*.name, 'research') && github.event.issue.state == 'open')
     uses: ranjithrajv/awesome-enhancer/.github/workflows/digest-apply.yml@main
     with:
-      issue-number: ${{ github.event.issue.number || inputs.issue_number }}
+      # inputs first: on a workflow_dispatch there is no github.event.issue,
+      # and the left operand of || is evaluated before it can fall back.
+      issue-number: ${{ inputs.issue_number || github.event.issue.number }}
     secrets: inherit
