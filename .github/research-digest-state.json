@@ -69,6 +69,76 @@
     "times_seen": 1,
     "title": "Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains"
   },
+  "https://arxiv.org/abs/2610.29365v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Using Temporal Replication and Partial Pooling to Improve Practical Identifiability in Presence-Only Poisson Point Proce"
+  },
+  "https://arxiv.org/abs/2610.32573v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Standing on Open Shoulders: Regional Fine-Tuning of Open-Weight Camera-Trap Models for UK Wildlife with Modest Data and "
+  },
+  "https://arxiv.org/abs/2610.32632v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Toward Open ISA Supercomputing: A Comparative Study of RISC-V, Arm, and x86 Architectures on HPC Workloads"
+  },
+  "https://arxiv.org/abs/2610.32638v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "InferSlice: A Reference Architecture for SLO-driven LLM Inference over a Telco Wide-Area Network"
+  },
+  "https://arxiv.org/abs/2610.32695v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Tile-Based Decompression in Compiled GPU Engines"
+  },
+  "https://arxiv.org/abs/2610.32711v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Beyond Hotness: High-Resolution Memory Characterization of Cloud and LLM Workloads for Tiered Memory with ARM SPE"
+  },
+  "https://arxiv.org/abs/2610.32720v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Migration as a Steady-State Execution Primitive: A Runtime for Virtual Stationarity in Low-Earth Orbit"
+  },
+  "https://arxiv.org/abs/2610.32765v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Clean-label Poisoning Attack and Defense Game for Federated Learning in Vehicular Networks"
+  },
+  "https://arxiv.org/abs/2610.32803v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Quantum Cadence: Post-Quantum Consensus with Multiple Concurrent Proposers"
+  },
+  "https://arxiv.org/abs/2610.32844v1": {
+    "first_seen": "2026-10-26",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "On Latency-Optimal Implementations of the Timestamp Object"
+  },
   "https://bsky.app/profile/csolisr.hub.azkware.net.ap.brid.gy/post/3mxdjlb2mi4z2": {
     "first_seen": "2026-10-19",
     "last_score": 0.0,
@@ -118,6 +188,27 @@
     "times_seen": 1,
     "title": "Hello world. My FAH (folding@home) project just went over 16 billion points. I only run with Nvidia GPUs on AlmaLinux (s"
   },
+  "https://bsky.app/profile/trevorgoodyear.bsky.social/post/3myqh5tziis2m": {
+    "first_seen": "2026-10-26",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "If you have spare compute lying around and would like to help with the large stack of OCR work ahead of us, please join "
+  },
+  "https://github.com/DesconBelgrade/Klimerko": {
+    "first_seen": "2026-10-26",
+    "last_score": 14.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "DesconBelgrade/Klimerko"
+  },
+  "https://github.com/Haidra-Org/horde-worker-reGen": {
+    "first_seen": "2026-10-26",
+    "last_score": 18.7,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Haidra-Org/horde-worker-reGen"
+  },
   "https://github.com/OpenGammaProject/Open-Gamma-Detector": {
     "first_seen": "2026-10-19",
     "last_score": 38.0,
@@ -125,12 +216,82 @@
     "times_seen": 1,
     "title": "OpenGammaProject/Open-Gamma-Detector"
   },
+  "https://github.com/Ricks-Lab/gpu-utils": {
+    "first_seen": "2026-10-26",
+    "last_score": 15.3,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Ricks-Lab/gpu-utils"
+  },
   "https://github.com/dylanrees/citizen-science": {
     "first_seen": "2026-10-19",
     "last_score": 33.3,
     "status": "new",
     "times_seen": 1,
     "title": "dylanrees/citizen-science"
+  },
+  "https://github.com/marius311/boinc-server-docker": {
+    "first_seen": "2026-10-26",
+    "last_score": 12.7,
+    "status": "new",
+    "times_seen": 1,
+    "title": "marius311/boinc-server-docker"
+  },
+  "https://github.com/petals-infra/chat.petals.dev": {
+    "first_seen": "2026-10-26",
+    "last_score": 31.9,
+    "status": "new",
+    "times_seen": 1,
+    "title": "petals-infra/chat.petals.dev"
+  },
+  "https://github.com/pyinat/pyinaturalist": {
+    "first_seen": "2026-10-26",
+    "last_score": 18.8,
+    "status": "new",
+    "times_seen": 1,
+    "title": "pyinat/pyinaturalist"
+  },
+  "https://github.com/samchon/tgrid": {
+    "first_seen": "2026-10-26",
+    "last_score": 16.7,
+    "status": "new",
+    "times_seen": 1,
+    "title": "samchon/tgrid"
+  },
+  "https://github.com/stas-sl/esphome-sound-level-meter": {
+    "first_seen": "2026-10-26",
+    "last_score": 13.2,
+    "status": "new",
+    "times_seen": 1,
+    "title": "stas-sl/esphome-sound-level-meter"
+  },
+  "https://github.com/wq/wq": {
+    "first_seen": "2026-10-26",
+    "last_score": 26.4,
+    "status": "new",
+    "times_seen": 1,
+    "title": "wq/wq"
+  },
+  "https://reddit.com/r/BOINC/comments/1whs94f/years_without_new_boinc_projects_quite_sad": {
+    "first_seen": "2026-10-26",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Years without new BOINC projects. Quite sad"
+  },
+  "https://reddit.com/r/BOINC/comments/1wnfn0y/boinc_down": {
+    "first_seen": "2026-10-26",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "BOINC down?"
+  },
+  "https://reddit.com/r/BOINC/comments/1wt0icd/boinc_permissions_hells_macos": {
+    "first_seen": "2026-10-26",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "BOINC Permissions Hells (MacOS)"
   },
   "https://reddit.com/r/BOINC/comments/1wz76qk/the_app_configxml_struggle_is_realhow_do_we": {
     "first_seen": "2026-10-19",
@@ -166,6 +327,20 @@
     "status": "new",
     "times_seen": 1,
     "title": "Are there any projects to run to help with climate change research?"
+  },
+  "https://reddit.com/r/BOINC/comments/1xa9h6f/ai_inference_as_a_boinc_project": {
+    "first_seen": "2026-10-26",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "AI inference as a BOINC project?"
+  },
+  "https://reddit.com/r/BOINC/comments/1xcxe22/theoretically_can_a_boinc_project_or_workunit": {
+    "first_seen": "2026-10-26",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Theoretically, can a BOINC project or workunit infect a volunteer computer with malware?"
   },
   "https://ubuntu.social/@askubuntu/117459242370509952": {
     "first_seen": "2026-10-19",
