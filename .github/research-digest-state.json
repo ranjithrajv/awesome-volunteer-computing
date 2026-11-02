@@ -139,6 +139,83 @@
     "times_seen": 1,
     "title": "On Latency-Optimal Implementations of the Timestamp Object"
   },
+  "https://arxiv.org/abs/2610.41278v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "AuditFL: A Contract-Backed Clearing Layer for Open Federated Learning"
+  },
+  "https://arxiv.org/abs/2610.41313v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Migrating a Legacy Scientific Application with an AI Coding Agent: NICAM from Fortran to Kokkos"
+  },
+  "https://arxiv.org/abs/2610.41457v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "RecIS: Unifying Sparse and Dense Computation for Efficient Recommendation Training"
+  },
+  "https://arxiv.org/abs/2610.41508v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "HiState: Hierarchical Prefix Cache Management for Hybrid LLM Serving in Agentic Workloads"
+  },
+  "https://arxiv.org/abs/2610.41525v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "MemX: Memory-Aware Automatic Parallelism for Cross-Vendor Heterogeneous GPU Training"
+  },
+  "https://arxiv.org/abs/2610.41825v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Where KV-Cache Error Lives in Looped Language Models: A Diagnostic Study of Ouro and Huginn"
+  },
+  "https://arxiv.org/abs/2610.41837v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "A Deterministic Commitment Rule over Unstructured DAGs for Optimistic Replication"
+  },
+  "https://arxiv.org/abs/2610.41861v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Layered Reproducibility for High-Performance Computing Applications: The Feel++ and Ktirio Urban Buildings Case Study"
+  },
+  "https://arxiv.org/abs/2610.41912v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Decentralized Dynamic Stable Matching"
+  },
+  "https://arxiv.org/abs/2610.41919v1": {
+    "first_seen": "2026-11-02",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads"
+  },
+  "https://bsky.app/profile/adorablesergal.neocities.org/post/3mzc6l5w7gs2f": {
+    "first_seen": "2026-11-02",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "weather getting colder; back on my boinc bullshit"
+  },
   "https://bsky.app/profile/csolisr.hub.azkware.net.ap.brid.gy/post/3mxdjlb2mi4z2": {
     "first_seen": "2026-10-19",
     "last_score": 0.0,
@@ -152,6 +229,13 @@
     "status": "new",
     "times_seen": 1,
     "title": "This isn't sci-fi, but something that's already done daily. As a single example, IBM's World Community Grid allows peopl"
+  },
+  "https://bsky.app/profile/fms2000.bsky.social/post/3mz4yhxtmxc2d": {
+    "first_seen": "2026-11-02",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "So did no one tell Sam Altman what distributed computing was? I've used Seti@home before and Boinc handles a lot of that"
   },
   "https://bsky.app/profile/hectorespert.bsky.social/post/3mxoo46l7o32m": {
     "first_seen": "2026-10-19",
@@ -174,6 +258,13 @@
     "times_seen": 1,
     "title": "finished my last boinc tasks for a while it feels so strange :( wish i had a nice working pc at my mom's house but it's "
   },
+  "https://bsky.app/profile/mobluse.bsky.social/post/3mzbzxqq35c2j": {
+    "first_seen": "2026-11-02",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "You can share your RAM at home with the community by using #BOINC."
+  },
   "https://bsky.app/profile/momdo.bsky.social/post/3mx6hz5c4gk23": {
     "first_seen": "2026-10-19",
     "last_score": 0.0,
@@ -188,12 +279,47 @@
     "times_seen": 1,
     "title": "Hello world. My FAH (folding@home) project just went over 16 billion points. I only run with Nvidia GPUs on AlmaLinux (s"
   },
+  "https://bsky.app/profile/riziles.bsky.social/post/3mz6pu4cqk2sk": {
+    "first_seen": "2026-11-02",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "All this hullabaloo puzzles me. We were doing this back in the 90s with SETI and GIMPS and then BOINC in 2000s. Maybe co"
+  },
+  "https://bsky.app/profile/sabera.mesia.blog/post/3mzc6zs7kos2f": {
+    "first_seen": "2026-11-02",
+    "last_score": 1.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "boinc"
+  },
+  "https://bsky.app/profile/stephendedman.bsky.social/post/3mz5hyt3i4227": {
+    "first_seen": "2026-11-02",
+    "last_score": 1.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Wondering whether he's ever heard of BOINC or similar projects, that uses that RAM for science when the computer's not i"
+  },
+  "https://bsky.app/profile/sternengucker.bsky.social/post/3mzdqqf7ivs2a": {
+    "first_seen": "2026-11-02",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Wer nicht nur Proteine falten lassen will, findet hier ein Citizen Science Projekt, das eins unterst\u00fctzen m\u00f6chte. boinc."
+  },
   "https://bsky.app/profile/trevorgoodyear.bsky.social/post/3myqh5tziis2m": {
     "first_seen": "2026-10-26",
     "last_score": 0.0,
     "status": "new",
     "times_seen": 1,
     "title": "If you have spare compute lying around and would like to help with the large stack of OCR work ahead of us, please join "
+  },
+  "https://github.com/CMU-CREATE-Lab/deep-smoke-machine": {
+    "first_seen": "2026-11-02",
+    "last_score": 12.5,
+    "status": "new",
+    "times_seen": 1,
+    "title": "CMU-CREATE-Lab/deep-smoke-machine"
   },
   "https://github.com/DesconBelgrade/Klimerko": {
     "first_seen": "2026-10-26",
@@ -237,6 +363,13 @@
     "times_seen": 1,
     "title": "marius311/boinc-server-docker"
   },
+  "https://github.com/minecrafthome/minecrafthome": {
+    "first_seen": "2026-11-02",
+    "last_score": 12.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "minecrafthome/minecrafthome"
+  },
   "https://github.com/petals-infra/chat.petals.dev": {
     "first_seen": "2026-10-26",
     "last_score": 31.9,
@@ -271,6 +404,34 @@
     "status": "new",
     "times_seen": 1,
     "title": "wq/wq"
+  },
+  "https://github.com/wq/wq.app": {
+    "first_seen": "2026-11-02",
+    "last_score": 12.2,
+    "status": "new",
+    "times_seen": 1,
+    "title": "wq/wq.app"
+  },
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWkVxUkktU3prN2g5VkwwODgzTTF4b1BDaVMyS1VzM0VJSkd5aGo0Y1ZiWGhxSHRrdFJzdndYNEg0M2o0UkhBR0lfMkljc2dHeFNvLVRTX0FkNmdTemJVWjBscThDTFdmUmEzTVRxWEdiYmxPX0J4aGdEdmJKSXFpOUI1MA?oc=5": {
+    "first_seen": "2026-11-02",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Volunteer Computing Could Help Expand Data Centers Without Large Negative Effects - The Unseen and The Unsaid"
+  },
+  "https://reddit.com/r/BOINC/comments/1wc6wqz/boinc_site_back_up": {
+    "first_seen": "2026-11-02",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "BOINC site back up"
+  },
+  "https://reddit.com/r/BOINC/comments/1wg4jgf/boinc_active_projects": {
+    "first_seen": "2026-11-02",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Boinc active projects"
   },
   "https://reddit.com/r/BOINC/comments/1whs94f/years_without_new_boinc_projects_quite_sad": {
     "first_seen": "2026-10-26",
@@ -341,6 +502,20 @@
     "status": "new",
     "times_seen": 1,
     "title": "Theoretically, can a BOINC project or workunit infect a volunteer computer with malware?"
+  },
+  "https://reddit.com/r/BOINC/comments/1xifksi/i_built_my_own_boinc_dashboard_to_track_my": {
+    "first_seen": "2026-11-02",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "I built my own BOINC dashboard to track my contribution to science"
+  },
+  "https://reddit.com/r/BOINC/comments/1xjfxae/whats_going_on_beaconhome_stole_bitboinc_code": {
+    "first_seen": "2026-11-02",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "What's going on? \"Beacon@Home\" stole \"BitBoinc\" code?"
   },
   "https://ubuntu.social/@askubuntu/117459242370509952": {
     "first_seen": "2026-10-19",
