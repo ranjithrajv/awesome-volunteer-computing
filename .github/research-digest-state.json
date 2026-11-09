@@ -216,6 +216,13 @@
     "times_seen": 1,
     "title": "weather getting colder; back on my boinc bullshit"
   },
+  "https://bsky.app/profile/allencasey.bsky.social/post/3mzsu45hi7k2i": {
+    "first_seen": "2026-11-09",
+    "last_score": 1.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "There are many projects that do this. For instance, through the Boinc platform, the SETI project uses mass CPU/RAM resou"
+  },
   "https://bsky.app/profile/csolisr.hub.azkware.net.ap.brid.gy/post/3mxdjlb2mi4z2": {
     "first_seen": "2026-10-19",
     "last_score": 0.0,
@@ -251,12 +258,33 @@
     "times_seen": 1,
     "title": "#HomeAssistant apps for #BOINC Contribute to scientific research projects from your Home Assistant instance. \ud83d\ude80 New relea"
   },
+  "https://bsky.app/profile/keab42.bsky.social/post/3mzee2l336k2u": {
+    "first_seen": "2026-11-09",
+    "last_score": 10.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Normally when my PC is idle it's running grid computing projects from BOINC (RIP SETI@home) But today I've left it power"
+  },
   "https://bsky.app/profile/laufina.bsky.social/post/3mxcmtjnyfk2y": {
     "first_seen": "2026-10-19",
     "last_score": 0.0,
     "status": "new",
     "times_seen": 1,
     "title": "finished my last boinc tasks for a while it feels so strange :( wish i had a nice working pc at my mom's house but it's "
+  },
+  "https://bsky.app/profile/megaslippers.net/post/3mzedstey4k23": {
+    "first_seen": "2026-11-09",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Before we all ended up here in hell, some of us were in Monty Python themed BOINC teams. Shout out to The Knights Who Sa"
+  },
+  "https://bsky.app/profile/mikekenzie.bsky.social/post/3mztfrjh7gk2i": {
+    "first_seen": "2026-11-09",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "That was the idea of BOINC and setiathome. Put your idle CPU and memory to use."
   },
   "https://bsky.app/profile/mobluse.bsky.social/post/3mzbzxqq35c2j": {
     "first_seen": "2026-11-02",
@@ -279,6 +307,20 @@
     "times_seen": 1,
     "title": "Hello world. My FAH (folding@home) project just went over 16 billion points. I only run with Nvidia GPUs on AlmaLinux (s"
   },
+  "https://bsky.app/profile/remanufactured.bsky.social/post/3mzmzeqsme22m": {
+    "first_seen": "2026-11-09",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "why dont *they* rent capacity from *your* devices while they\u2019re not being used. you know like boinc or folding at home o"
+  },
+  "https://bsky.app/profile/retidurc.silvernight.social/post/3mzufkol47k27": {
+    "first_seen": "2026-11-09",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Sous le post reddit du homelaber qui dit qu'il se chauffe l'hiver avec son lab et des calculs distribu\u00e9s sur Boinc, pour"
+  },
   "https://bsky.app/profile/riziles.bsky.social/post/3mz6pu4cqk2sk": {
     "first_seen": "2026-11-02",
     "last_score": 2.0,
@@ -292,6 +334,20 @@
     "status": "new",
     "times_seen": 1,
     "title": "boinc"
+  },
+  "https://bsky.app/profile/securityonline.bsky.social/post/3mzmr4c5lny2f": {
+    "first_seen": "2026-11-09",
+    "last_score": 1.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Microsoft exposes a campaign using trojanized installers. See how Inno Setup trojanized installers silently deploy World"
+  },
+  "https://bsky.app/profile/solodeveloping.bsky.social/post/3mzt6co57i22r": {
+    "first_seen": "2026-11-09",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "It's close to the concept of volunteer computing, except you're using your unused processing power for good, not make th"
   },
   "https://bsky.app/profile/stephendedman.bsky.social/post/3mz5hyt3i4227": {
     "first_seen": "2026-11-02",
@@ -328,6 +384,13 @@
     "times_seen": 1,
     "title": "DesconBelgrade/Klimerko"
   },
+  "https://github.com/Dudebaker/Gadgets-Additions": {
+    "first_seen": "2026-11-09",
+    "last_score": 7.5,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Dudebaker/Gadgets-Additions"
+  },
   "https://github.com/Haidra-Org/horde-worker-reGen": {
     "first_seen": "2026-10-26",
     "last_score": 18.7,
@@ -335,12 +398,26 @@
     "times_seen": 1,
     "title": "Haidra-Org/horde-worker-reGen"
   },
+  "https://github.com/KnowFlow/KnowFlow_AWM": {
+    "first_seen": "2026-11-09",
+    "last_score": 10.1,
+    "status": "new",
+    "times_seen": 1,
+    "title": "KnowFlow/KnowFlow_AWM"
+  },
   "https://github.com/OpenGammaProject/Open-Gamma-Detector": {
     "first_seen": "2026-10-19",
     "last_score": 38.0,
     "status": "new",
     "times_seen": 1,
     "title": "OpenGammaProject/Open-Gamma-Detector"
+  },
+  "https://github.com/OpenHumans/open-humans": {
+    "first_seen": "2026-11-09",
+    "last_score": 8.7,
+    "status": "new",
+    "times_seen": 1,
+    "title": "OpenHumans/open-humans"
   },
   "https://github.com/Ricks-Lab/gpu-utils": {
     "first_seen": "2026-10-26",
@@ -356,6 +433,41 @@
     "times_seen": 1,
     "title": "dylanrees/citizen-science"
   },
+  "https://github.com/emissions-api/emissions-api": {
+    "first_seen": "2026-11-09",
+    "last_score": 7.8,
+    "status": "new",
+    "times_seen": 1,
+    "title": "emissions-api/emissions-api"
+  },
+  "https://github.com/fablabbcn/smartcitizen-kit-2x": {
+    "first_seen": "2026-11-09",
+    "last_score": 6.2,
+    "status": "new",
+    "times_seen": 1,
+    "title": "fablabbcn/smartcitizen-kit-2x"
+  },
+  "https://github.com/fairscope/PlanktoScope": {
+    "first_seen": "2026-11-09",
+    "last_score": 9.3,
+    "status": "new",
+    "times_seen": 1,
+    "title": "fairscope/PlanktoScope"
+  },
+  "https://github.com/getlantern/unbounded": {
+    "first_seen": "2026-11-09",
+    "last_score": 6.5,
+    "status": "new",
+    "times_seen": 1,
+    "title": "getlantern/unbounded"
+  },
+  "https://github.com/jppf-grid/JPPF": {
+    "first_seen": "2026-11-09",
+    "last_score": 7.2,
+    "status": "new",
+    "times_seen": 1,
+    "title": "jppf-grid/JPPF"
+  },
   "https://github.com/marius311/boinc-server-docker": {
     "first_seen": "2026-10-26",
     "last_score": 12.7,
@@ -369,6 +481,13 @@
     "status": "new",
     "times_seen": 1,
     "title": "minecrafthome/minecrafthome"
+  },
+  "https://github.com/panoptes/POCS": {
+    "first_seen": "2026-11-09",
+    "last_score": 8.4,
+    "status": "new",
+    "times_seen": 1,
+    "title": "panoptes/POCS"
   },
   "https://github.com/petals-infra/chat.petals.dev": {
     "first_seen": "2026-10-26",
@@ -412,12 +531,54 @@
     "times_seen": 1,
     "title": "wq/wq.app"
   },
+  "https://github.com/wq/wq.db": {
+    "first_seen": "2026-11-09",
+    "last_score": 11.9,
+    "status": "new",
+    "times_seen": 1,
+    "title": "wq/wq.db"
+  },
+  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeUpfY3BzWjFYTTRpVktSc1RmdERQQVhSam1jbFZsU3ZYTEtHR1FzNnpRb19UbnRNRWo5cGdJdFFIVTRfN2ZjTlhJTDM4eFpFSTNMTlZQbm9Md0JXYlA3YnRsdlI2STNLd0RjRXhja0tURU9kZ0Jha2g5b0pXNGZJQk9GeXJJNC1sSjdjSm5RQWV0eXZqSXNGYnJJUE9NNFY5bXdpWTVtWEZ1TFVPWFVxSXl2R2d0a01WQ3JNcWU5TVJrV2dkX3VWSVlQTXdoUVU2aXF1Vk1tLUh5RUJiREg1Wg?oc=5": {
+    "first_seen": "2026-11-09",
+    "last_score": 6.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "PLAYSTATION\u00ae3 Helps Folding@home Become The First Distributed Computing Network To Reach The Petaflop Milestone Reached "
+  },
+  "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14emlsTksxMXk0QWlsN2lWQ2JuU1d6ZnVINWNQNVYwWDFyV2RuTXhvc2dtU2d6ZTBwRVJpalRSWWZ2Ql9WNDNUZFJpRE5lUQ?oc=5": {
+    "first_seen": "2026-11-09",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "The decline of volunteer computing \u2013 what lies ahead? - The Macau Post Daily"
+  },
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzWTdIV0R5Zm80b184dGJMaExiVmRndnlUR01TUnlIN3g2cldpdGJISzVUNTlTZXNQRnBtMlpOWjVUVXRRaHNMa2VBVnFkMVhaU25UcjBFeUdBR0dVVkNB?oc=5": {
+    "first_seen": "2026-11-09",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Smart distributed data factory volunteer computing platform for active learning-driven molecular data acquisition - Natu"
+  },
   "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWkVxUkktU3prN2g5VkwwODgzTTF4b1BDaVMyS1VzM0VJSkd5aGo0Y1ZiWGhxSHRrdFJzdndYNEg0M2o0UkhBR0lfMkljc2dHeFNvLVRTX0FkNmdTemJVWjBscThDTFdmUmEzTVRxWEdiYmxPX0J4aGdEdmJKSXFpOUI1MA?oc=5": {
     "first_seen": "2026-11-02",
     "last_score": 4.0,
     "status": "new",
     "times_seen": 1,
     "title": "Volunteer Computing Could Help Expand Data Centers Without Large Negative Effects - The Unseen and The Unsaid"
+  },
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaFF6cU5DV2pueVNhdk1DajVUNGEwUndqLWYxWTlydVBZRnMxX2o2QWlEREs2VFJSQmRHTUpzLWlzSTVwVUNIWUhBcG82N1ZBSDJyODNhZmY3ZmtTYWJSeEZXRGoxc3RIcDJCU2JHaXpveHJqeTJMcTh3OWVobF9VU2lzdk9xaUdjc3REaExhV0xkQ0lRRWxtMQ?oc=5": {
+    "first_seen": "2026-11-09",
+    "last_score": 8.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Fake Browser Updates Lead to BOINC Volunteer Computing Software - Huntress"
+  },
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOWpHZ3JraE92VWJtb3VOMENnQWFJS3IySkd0cWlRSnNxbjZuckYtdldFMGRONGoyZ1FxRzZIdFRUVklIdjhjbUYyXzVRbWdaamJnNHBlbW83RHk5M0xsWU9rZURUdWRxWFp6SkJNWEV6UHhNOVVwSUVNU1hObTNobm9ZbFVsYVM1c2xMbC00TXhSdnFmbkh3THhZNGtCaExVVlNHN3plY2VhY21yWjdCWWpDMEdqVFhpNnc?oc=5": {
+    "first_seen": "2026-11-09",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Lend Your Idle Power: Unlocking the Potential of Volunteer Computing - DataDrivenInvestor"
   },
   "https://reddit.com/r/BOINC/comments/1wc6wqz/boinc_site_back_up": {
     "first_seen": "2026-11-02",
@@ -516,6 +677,20 @@
     "status": "new",
     "times_seen": 1,
     "title": "What's going on? \"Beacon@Home\" stole \"BitBoinc\" code?"
+  },
+  "https://reddit.com/r/BOINC/comments/1xrjtaf/got_5535885090_credit_instantly_on_world": {
+    "first_seen": "2026-11-09",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Got 5.535.885.090 credit instantly on World Community Grid"
+  },
+  "https://reddit.com/r/BOINC/comments/1xrwfub/boinc_november_news": {
+    "first_seen": "2026-11-09",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Boinc November News"
   },
   "https://ubuntu.social/@askubuntu/117459242370509952": {
     "first_seen": "2026-10-19",
