@@ -209,6 +209,76 @@
     "times_seen": 1,
     "title": "Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads"
   },
+  "https://arxiv.org/abs/2611.08732v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "FishSense Lite: A Camera-Based, Single Laser Hardware Framework with Software System for In Situ Fish Length Measurement"
+  },
+  "https://arxiv.org/abs/2611.13402v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Living constitutions: Participatory alignment for sovereign foundation models"
+  },
+  "https://arxiv.org/abs/2611.15886v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) B: Discovery pipel"
+  },
+  "https://arxiv.org/abs/2611.17924v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "TIDE: Reclaiming Lost Performance In On-Policy Reinforcement Learning"
+  },
+  "https://arxiv.org/abs/2611.17989v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "The Exact Stabilization Time of Self-Stabilizing Coloring: Mean, Variance, and Distribution"
+  },
+  "https://arxiv.org/abs/2611.18075v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Zero-SM NCCL: A Systematic Guide to Designing and Deploying SM-Free GPU Communication"
+  },
+  "https://arxiv.org/abs/2611.18111v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Multi-GPU Tridiagonal Partition Algorithm"
+  },
+  "https://arxiv.org/abs/2611.18145v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Compiling Specialized GPU-Initiated Networking"
+  },
+  "https://arxiv.org/abs/2611.18275v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "BPU-SpikeMM:Exact Matrix Multiplication via Spatio-Temporal Spike Encoding on Real Neuromorphic Hardware"
+  },
+  "https://arxiv.org/abs/2611.18459v1": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Callo: Serving Cache-Miss Requests with Speculative Decoding on Invalidated KV under Prefill-Decode Disaggregation"
+  },
   "https://bsky.app/profile/adorablesergal.neocities.org/post/3mzc6l5w7gs2f": {
     "first_seen": "2026-11-02",
     "last_score": 2.0,
@@ -244,6 +314,13 @@
     "times_seen": 1,
     "title": "So did no one tell Sam Altman what distributed computing was? I've used Seti@home before and Boinc handles a lot of that"
   },
+  "https://bsky.app/profile/forte.wtf/post/3mzxvphiujc2b": {
+    "first_seen": "2026-11-16",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Silly Sam Altman. I've been donating my computing resources for decades with BOINC."
+  },
   "https://bsky.app/profile/hectorespert.bsky.social/post/3mxoo46l7o32m": {
     "first_seen": "2026-10-19",
     "last_score": 0.0,
@@ -257,6 +334,13 @@
     "status": "new",
     "times_seen": 1,
     "title": "#HomeAssistant apps for #BOINC Contribute to scientific research projects from your Home Assistant instance. \ud83d\ude80 New relea"
+  },
+  "https://bsky.app/profile/isegrimm.bsky.social/post/3n2defubqg22i": {
+    "first_seen": "2026-11-16",
+    "last_score": 9.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Hier aber k\u00f6nnt ihr an \u00e4hnlichen Projekten teilnehmen (s.u.). Aber ... (von BOINC) ... um zu entscheiden, ob ihr an eine"
   },
   "https://bsky.app/profile/keab42.bsky.social/post/3mzee2l336k2u": {
     "first_seen": "2026-11-09",
@@ -286,6 +370,13 @@
     "times_seen": 1,
     "title": "That was the idea of BOINC and setiathome. Put your idle CPU and memory to use."
   },
+  "https://bsky.app/profile/mmeadway.bsky.social/post/3mzyaskg3ks26": {
+    "first_seen": "2026-11-16",
+    "last_score": 1.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "How is this functionally different than SETI@Home, or BOINC? videocardz.com/newz/microso..."
+  },
   "https://bsky.app/profile/mobluse.bsky.social/post/3mzbzxqq35c2j": {
     "first_seen": "2026-11-02",
     "last_score": 0.0,
@@ -306,6 +397,13 @@
     "status": "new",
     "times_seen": 1,
     "title": "Hello world. My FAH (folding@home) project just went over 16 billion points. I only run with Nvidia GPUs on AlmaLinux (s"
+  },
+  "https://bsky.app/profile/neso.mstdn.home.neso.tech.ap.brid.gy/post/3n24mo6bvfub2": {
+    "first_seen": "2026-11-16",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "\u30a8\u30fc\u30a2\u30a4\u3067BOINC\u307f\u305f\u3044\u306a\u306e\u304c\u51fa\u3066\u304d\u305f\u3089\u5b89\u304f\u306a\u3063\u305f\u308a\u3059\u308b\u306e\u304b\u306a\u304f\u3089\u3044\u3059\u304e\u3048\u4e00\u751f\u6642\u671f\u304c\u60aa\u3044"
   },
   "https://bsky.app/profile/remanufactured.bsky.social/post/3mzmzeqsme22m": {
     "first_seen": "2026-11-09",
@@ -405,6 +503,13 @@
     "times_seen": 1,
     "title": "KnowFlow/KnowFlow_AWM"
   },
+  "https://github.com/OpenDosimeter/OpenDosimeter": {
+    "first_seen": "2026-11-16",
+    "last_score": 5.5,
+    "status": "new",
+    "times_seen": 1,
+    "title": "OpenDosimeter/OpenDosimeter"
+  },
   "https://github.com/OpenGammaProject/Open-Gamma-Detector": {
     "first_seen": "2026-10-19",
     "last_score": 38.0,
@@ -432,6 +537,13 @@
     "status": "new",
     "times_seen": 1,
     "title": "dylanrees/citizen-science"
+  },
+  "https://github.com/emadehsan/marsjs": {
+    "first_seen": "2026-11-16",
+    "last_score": 5.2,
+    "status": "new",
+    "times_seen": 1,
+    "title": "emadehsan/marsjs"
   },
   "https://github.com/emissions-api/emissions-api": {
     "first_seen": "2026-11-09",
@@ -468,6 +580,13 @@
     "times_seen": 1,
     "title": "jppf-grid/JPPF"
   },
+  "https://github.com/makeasnek/FindTheMag2": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.4,
+    "status": "new",
+    "times_seen": 1,
+    "title": "makeasnek/FindTheMag2"
+  },
   "https://github.com/marius311/boinc-server-docker": {
     "first_seen": "2026-10-26",
     "last_score": 12.7,
@@ -489,6 +608,13 @@
     "times_seen": 1,
     "title": "panoptes/POCS"
   },
+  "https://github.com/pcorbel/scitizen": {
+    "first_seen": "2026-11-16",
+    "last_score": 2.3,
+    "status": "new",
+    "times_seen": 1,
+    "title": "pcorbel/scitizen"
+  },
   "https://github.com/petals-infra/chat.petals.dev": {
     "first_seen": "2026-10-26",
     "last_score": 31.9,
@@ -503,6 +629,20 @@
     "times_seen": 1,
     "title": "pyinat/pyinaturalist"
   },
+  "https://github.com/r-map/rmap": {
+    "first_seen": "2026-11-16",
+    "last_score": 5.5,
+    "status": "new",
+    "times_seen": 1,
+    "title": "r-map/rmap"
+  },
+  "https://github.com/ranjithrajv/awesome-volunteer-computing": {
+    "first_seen": "2026-11-16",
+    "last_score": 3.7,
+    "status": "new",
+    "times_seen": 1,
+    "title": "ranjithrajv/awesome-volunteer-computing"
+  },
   "https://github.com/samchon/tgrid": {
     "first_seen": "2026-10-26",
     "last_score": 16.7,
@@ -510,12 +650,33 @@
     "times_seen": 1,
     "title": "samchon/tgrid"
   },
+  "https://github.com/sau412/arikado_gridcoin_pool": {
+    "first_seen": "2026-11-16",
+    "last_score": 2.5,
+    "status": "new",
+    "times_seen": 1,
+    "title": "sau412/arikado_gridcoin_pool"
+  },
+  "https://github.com/sedflix/SadlyDistributed": {
+    "first_seen": "2026-11-16",
+    "last_score": 2.4,
+    "status": "new",
+    "times_seen": 1,
+    "title": "sedflix/SadlyDistributed"
+  },
   "https://github.com/stas-sl/esphome-sound-level-meter": {
     "first_seen": "2026-10-26",
     "last_score": 13.2,
     "status": "new",
     "times_seen": 1,
     "title": "stas-sl/esphome-sound-level-meter"
+  },
+  "https://github.com/suchow/awesome-crowds": {
+    "first_seen": "2026-11-16",
+    "last_score": 5.2,
+    "status": "new",
+    "times_seen": 1,
+    "title": "suchow/awesome-crowds"
   },
   "https://github.com/wq/wq": {
     "first_seen": "2026-10-26",
@@ -537,6 +698,13 @@
     "status": "new",
     "times_seen": 1,
     "title": "wq/wq.db"
+  },
+  "https://github.com/zach7036/BirdNET-Pi-Enhanced-Version": {
+    "first_seen": "2026-11-16",
+    "last_score": 4.4,
+    "status": "new",
+    "times_seen": 1,
+    "title": "zach7036/BirdNET-Pi-Enhanced-Version"
   },
   "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeUpfY3BzWjFYTTRpVktSc1RmdERQQVhSam1jbFZsU3ZYTEtHR1FzNnpRb19UbnRNRWo5cGdJdFFIVTRfN2ZjTlhJTDM4eFpFSTNMTlZQbm9Md0JXYlA3YnRsdlI2STNLd0RjRXhja0tURU9kZ0Jha2g5b0pXNGZJQk9GeXJJNC1sSjdjSm5RQWV0eXZqSXNGYnJJUE9NNFY5bXdpWTVtWEZ1TFVPWFVxSXl2R2d0a01WQ3JNcWU5TVJrV2dkX3VWSVlQTXdoUVU2aXF1Vk1tLUh5RUJiREg1Wg?oc=5": {
     "first_seen": "2026-11-09",
@@ -691,6 +859,13 @@
     "status": "new",
     "times_seen": 1,
     "title": "Boinc November News"
+  },
+  "https://reddit.com/r/BOINC/comments/1xtb2ql/introducing_ramanujancomputing_harness_idle": {
+    "first_seen": "2026-11-16",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Introducing Ramanujan-Computing: Harness idle compute power to empower science"
   },
   "https://ubuntu.social/@askubuntu/117459242370509952": {
     "first_seen": "2026-10-19",
